@@ -1,0 +1,54 @@
+.search-suggestions {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.search-suggestions--empty {
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--text-tertiary);
+  font-size: 0.875rem;
+}
+
+.search-suggestions li button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.search-suggestions li button:hover {
+  background: var(--surface-hover);
+}
+
+.search-suggestions__poster {
+  width: 40px;
+  flex-shrink: 0;
+}
+
+.search-suggestions__info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.search-suggestions__title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-suggestions__year {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+}

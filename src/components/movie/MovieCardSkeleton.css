@@ -1,0 +1,19 @@
+.movie-card-skeleton__poster {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border-radius: 8px;
+}
+
+.movie-card-skeleton__title {
+  height: 0.9rem;
+  width: 85%;
+  margin-top: 0.7rem;
+  border-radius: 4px;
+}
+
+.movie-card-skeleton__year {
+  height: 0.75rem;
+  width: 40%;
+  margin-top: 0.4rem;
+  border-radius: 4px;
+}

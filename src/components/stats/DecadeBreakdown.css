@@ -1,0 +1,43 @@
+.decade-breakdown {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  height: 200px;
+  padding-top: 1.5rem;
+}
+
+.decade-breakdown__col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.decade-breakdown__count {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.35rem;
+}
+
+.decade-breakdown__bar-track {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.decade-breakdown__bar-fill {
+  width: 100%;
+  background: linear-gradient(to top, var(--accent-primary), var(--accent-warm));
+  border-radius: 6px 6px 0 0;
+  min-height: 4px;
+}
+
+.decade-breakdown__label {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  font-family: var(--font-mono);
+}

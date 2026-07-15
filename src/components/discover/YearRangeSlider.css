@@ -1,0 +1,59 @@
+.year-range__values {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.year-range__track {
+  position: relative;
+  height: 24px;
+}
+
+.year-range__track input[type='range'] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  appearance: none;
+  background: none;
+  pointer-events: none;
+  height: 24px;
+}
+
+.year-range__track input[type='range']::-webkit-slider-runnable-track {
+  height: 4px;
+  background: var(--border-subtle);
+  border-radius: 999px;
+}
+
+.year-range__track input[type='range']::-moz-range-track {
+  height: 4px;
+  background: var(--border-subtle);
+  border-radius: 999px;
+}
+
+.year-range__track input[type='range']::-webkit-slider-thumb {
+  appearance: none;
+  pointer-events: auto;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  border: 2px solid var(--bg);
+  margin-top: -6px;
+  cursor: pointer;
+}
+
+.year-range__track input[type='range']::-moz-range-thumb {
+  pointer-events: auto;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  border: 2px solid var(--bg);
+  cursor: pointer;
+}

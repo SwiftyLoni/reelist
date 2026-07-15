@@ -1,0 +1,11 @@
+.similar-movies {
+  margin: 2.5rem 0;
+}
+
+.similar-movies__title {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+  color: var(--text-primary);
+}

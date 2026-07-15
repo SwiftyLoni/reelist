@@ -1,0 +1,51 @@
+.top-movies-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.top-movies-list__item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.6rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.top-movies-list__item:hover {
+  background: var(--surface-hover);
+}
+
+.top-movies-list__rank {
+  font-family: var(--font-mono);
+  color: var(--text-tertiary);
+  font-size: 0.875rem;
+  width: 1.5rem;
+  text-align: center;
+}
+
+.top-movies-list__poster {
+  width: 44px;
+  flex-shrink: 0;
+}
+
+.top-movies-list__title {
+  flex: 1;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+}
+
+.top-movies-list__rating {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--accent-warm);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+}
